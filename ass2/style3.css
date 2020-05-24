@@ -1,0 +1,104 @@
+*
+{
+  box-sizing: border-box;
+}
+
+body {
+  font-size: 16px;
+  /*color : #000*/
+  background-color: #ADD8E6;
+  font-family: 'Oxygen', sans-serif;
+
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+  border : 1px bold;
+  border-color: black;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+}
+.navbar-brand h1 { 
+  font-family: 'Lora', serif;
+  color: #000;
+  font-size: 1.5em;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: -10px;
+  line-height: .75;
+}
+
+
+#nav-list {
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #FA8072;
+}
+#nav-list a {
+  color: #000;
+  text-align: center;
+
+}
+/*#nav-list a:hover {
+  background: #fff;
+}*/
+
+#nav-list hr.one, #nav-list hr.two {
+  border: 0;
+  height: 1px;
+  background: #000;
+  margin-bottom: 0;
+  margin-top: 0;
+
+}
+/*#nav-list a span {
+  font-size: 1.8em;
+}*/
+
+/*#phone {
+  margin-top: 5px;
+}
+#phone a { /* Phone number *//*
+  text-align: right;
+  padding-bottom: 0;
+}
+#phone div { /* We Deliver *//*
+  color: #557c3e;
+  text-align: right;
+  padding-right: 15px;
+}*/
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #000;
+}
+/*.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}*/
+/* END HEADER */
+ 
+
+/* Main-content */
+
+h2 {
+  text-align: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+#main-content-2, #main-content-3, #main-content-1 {
+  background-color: gray;
+  color: #000;
+  margin-top: 15px;
+  padding-bottom: 15px;
+  float: left;
+  clear: both;
+}
+
+#main-content-1, #main-content-2, #main-content-3 h3 {
+  text-align: center;
+}
